@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding:0;
+    font-size: 14px;
+    color: #555;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    padding: 14px 12px;
+}
+a{
+    text-decoration: none;
+}
+.profile-pic{
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.search-wrap{
+    height: 750vh;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.search{
+    width:16px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.mic{
+    width:15px;
+    position: absolute;
+    left: 430px;
+    top: 8px;
+}
+.lens{
+    width:25px;
+    position: absolute;
+    left: 460px;
+    top: 6px;
+}
+.menu-bt{
+    margin-top: 6px;
+    height: 18px;
+}
+/* .googleImg{
+    height:200px;
+} */
+input{
+    width:500px;
+    height:40px;
+    border-radius: 25px;
+    padding-left: 40px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 1px 3px 1px rgba(201, 201,201, 0.5); 
+    text-decoration: none;
+}
+form{
+    margin-top: 25px;
+    position: relative;
+}
+.row1{
+    display:flex;
+    justify-content: center; 
+    padding: 20px 10px;  
+}
+.row2{
+    display: flex;
+    padding-left: 10px;
+
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 100px;
+}
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color:rgb(231, 231, 231);
+    left: 10px;
+}
+.icon-name{
+    padding-top: 10px;
+}
+.book-img{
+    height:10px
+}
+.bookmarks{
+    margin-top:10px;
+}
+.googleDrive{
+    margin-top: 20px;
+    width: 450px;
+    border-style: solid;
+    border-width:1px;
+    border-color: rgb(231, 231, 231);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+}
+.i-icon{
+    width:12px;
+    margin-top: 2px;
+}
+.dot-menu{
+    height:10px;
+    padding-left: 7px;
+}
+.sheets{
+    width:50px;
+}
+.lists{
+    display: flex;
+    margin-top: 15px;
+}
+h3{
+    color: #555;
+}
+.bold{
+    font-weight: 500;
+    margin-top: 5px;
+}
+.italic{
+    color: rgb(143, 140, 140);
+    margin-top: 5px;
+}
+h3{
+    font-size: 16px;
+}
+
